@@ -1,0 +1,18 @@
+# OnePage PPT: AI Slide Maker — official support
+
+> Official support, privacy and App Store links for OnePage PPT: AI Slide Maker.
+
+## Apps
+
+- [OnePage PPT on the App Store](https://apps.apple.com/app/id6798814385)
+
+## Support
+
+- [Official support site](https://alice51849.github.io/onepageppt-support/)
+- [Support, FAQ and contact](https://alice51849.github.io/onepageppt-support/support.html)
+- [Privacy policy](https://alice51849.github.io/onepageppt-support/privacy.html)
+- [Terms of use](https://alice51849.github.io/onepageppt-support/terms.html)
+
+## Portfolio
+
+- [All public iOS apps](https://alice51849.github.io/ios-app-guide/apps/index.html)
