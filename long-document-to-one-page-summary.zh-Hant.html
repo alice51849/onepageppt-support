@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>長文件怎麼變一頁摘要？會議紀錄、PDF、CSV 在 iPhone 上濃縮成一頁簡報</title>
+<meta name="description" content="主管要「一頁就好」，手上卻是 20 頁的會議紀錄或 PDF？本頁說明一頁摘要該留什麼、刪什麼的判斷方法，以及在 iPhone 上把文字、截圖、PDF、CSV 丟進去直接排成一頁 16:9 簡報、匯出 pptx 或 PDF 的步驟。">
+<link rel="canonical" href="https://open.cait518.cc/onepageppt-support/long-document-to-one-page-summary.zh-Hant.html">
+<meta property="og:title" content="長文件怎麼變一頁摘要？會議紀錄、PDF、CSV 在 iPhone 上濃縮成一頁簡報">
+<meta property="og:description" content="主管要「一頁就好」，手上卻是 20 頁的會議紀錄或 PDF？本頁說明一頁摘要該留什麼、刪什麼的判斷方法，以及在 iPhone 上把文字、截圖、PDF、CSV 丟進去直接排成一頁 16:9 簡報、匯出 pptx 或 PDF 的步驟。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://open.cait518.cc/onepageppt-support/long-document-to-one-page-summary.zh-Hant.html">
+<meta name="apple-itunes-app" content="app-id=6798814385">
+<style>
+:root{color-scheme:light dark;--bg:#fbfaf7;--fg:#1d1d1f;--muted:#5f6368;--line:rgba(128,128,128,.22);--accent:#2f6fde;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--fg:#ececf0;--muted:#a3a3ab;--card:#1d1d21;--accent:#7aa7ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","PingFang TC","Noto Sans CJK TC","Apple SD Gothic Neo",Roboto,sans-serif}
+a{color:var(--accent)}
+.helpdoc{max-width:820px;margin:0 auto;padding:28px 16px 64px}
+.helpdoc h1{font-size:clamp(26px,4.4vw,36px);line-height:1.3;margin:.2em 0 .4em}
+.helpdoc h2{font-size:clamp(19px,2.8vw,24px);margin:2.1em 0 .6em;scroll-margin-top:16px}
+.helpdoc h3{font-size:17px;margin:1.5em 0 .35em}
+.helpdoc .lede{font-size:17.5px;color:var(--muted);margin:0 0 1.4em}
+.helpdoc .hd-nav{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;margin:0 0 20px}
+.helpdoc .hd-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:0;list-style:none}
+.helpdoc .hd-toc a{display:inline-block;padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:13.5px;text-decoration:none}
+.helpdoc .tbl{overflow-x:auto;margin:.8em 0}
+.helpdoc table{width:100%;border-collapse:collapse;font-size:15px}
+.helpdoc th,.helpdoc td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.helpdoc th{font-weight:650;white-space:nowrap}
+.helpdoc .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:1em 0}
+.helpdoc .cta{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:2.4em 0 1em}
+.helpdoc .cta a.btn{display:inline-block;margin:6px 0;padding:11px 20px;border-radius:999px;background:var(--accent);color:#fff;font-weight:650;text-decoration:none}
+.helpdoc .hd-q{margin:1.4em 0 .3em;font-weight:650;font-size:16.5px}
+.helpdoc .hd-a{margin:0 0 .2em}
+.helpdoc .hd-note{font-size:13px;color:var(--muted);margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px}
+.helpdoc ul,.helpdoc ol{padding-left:1.25em}
+.helpdoc li{margin:.3em 0}
+@media print{.hd-nav,.cta,.hd-toc{display:none}body{background:#fff;color:#000}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "長文件怎麼變一頁摘要？會議紀錄、PDF、CSV 在 iPhone 上濃縮成一頁簡報", "description": "主管要「一頁就好」，手上卻是 20 頁的會議紀錄或 PDF？本頁說明一頁摘要該留什麼、刪什麼的判斷方法，以及在 iPhone 上把文字、截圖、PDF、CSV 丟進去直接排成一頁 16:9 簡報、匯出 pptx 或 PDF 的步驟。", "inLanguage": "zh-Hant", "mainEntityOfPage": "https://open.cait518.cc/onepageppt-support/long-document-to-one-page-summary.zh-Hant.html", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "hourstag"}, "about": {"@type": "SoftwareApplication", "name": "OnePage PPT: AI 一頁簡報", "operatingSystem": "iOS", "applicationCategory": "BusinessApplication", "url": "https://apps.apple.com/app/id6798814385"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "zh-Hant", "mainEntity": [{"@type": "Question", "name": "可以把整份 20 頁的 PDF 丟進去嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以匯入 PDF。但一頁的品質取決於你要的結論，建議先在素材最前面寫一句「這頁要講什麼」，再匯入 PDF 當佐證。"}}, {"@type": "Question", "name": "匯出的 pptx 還能改嗎？", "acceptedAnswer": {"@type": "Answer", "text": "能。匯出的 pptx 保留可編輯的文字方塊與圖表，不是一張圖片，交給同事也能用 PowerPoint、Keynote 或 Google 簡報繼續改。"}}, {"@type": "Question", "name": "它會不會為了好看而捏造數字？", "acceptedAnswer": {"@type": "Answer", "text": "商店文案寫明只有在資料真的撐得住時才會畫圖，絕不自行編造數字。"}}, {"@type": "Question", "name": "沒有網路能用嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以。所有處理都在裝置上完成，飛航模式、高鐵上或完全沒有網路都能用。"}}, {"@type": "Question", "name": "一定要做成投影片嗎？我只要一頁 PDF 或圖片。", "acceptedAnswer": {"@type": "Answer", "text": "不一定。可以直接匯出 PDF 或高解析 PNG，對方沒裝辦公軟體也能看。"}}]}</script>
+</head>
+<body>
+<main class="helpdoc">
+<nav class="hd-nav"><a href="./">支援首頁</a><a href="support.html">說明與常見問題</a><a href="https://apps.apple.com/tw/app/id6798814385?pt=118326163&amp;ct=bm_onepageppt_tw_seo&amp;mt=8">OnePage PPT: AI 一頁簡報</a></nav>
+<h1>長文件怎麼變一頁摘要？會議紀錄、PDF、CSV 濃縮成一頁簡報的做法</h1>
+<p class="lede">一頁摘要的難處不在「寫」，在<strong>「敢刪」</strong>：20 頁的資料要變成一頁，你得先決定結論是什麼、哪三個數字撐得住這個結論，其他全部放掉。下面先給一套判斷順序，再示範在 iPhone 上用 OnePage PPT 把文字、截圖、PDF 或 CSV 直接排成一頁可以上台講的 16:9 投影片。</p>
+<p><strong>本頁目錄</strong></p>
+<ul class="hd-toc"><li><a href="#rule">一頁摘要留什麼、刪什麼：三個問題</a></li><li><a href="#steps">在 iPhone 上三步做出一頁（以 OnePage PPT 為例）</a></li><li><a href="#cases">常見情境怎麼餵素材</a></li><li><a href="#polish">第一版不滿意，怎麼改到能交</a></li><li><a href="#privacy">資料會不會上傳？</a></li><li><a href="#faq">常見問題</a></li></ul>
+<h2 id="rule">一頁摘要留什麼、刪什麼：三個問題</h2>
+<ol><li><strong>看的人要做什麼決定？</strong>週會報告是要主管點頭、客戶更新是要對方安心、課程講義是要學生記住重點。結論先寫成一句話，放在標題。</li><li><strong>哪些數字或步驟撐得住這句話？</strong>通常是兩到四個：一組趨勢、一個比較、一條時間軸。撐不住結論的數字，放進附件而不是這一頁。</li><li><strong>對方沒看過原文也看得懂嗎？</strong>一頁不能依賴「翻到前一頁」，所以每個區塊要自己講得通。</li></ol><p>用這三個問題過一遍，一小時的會議紀錄通常只會剩下一個結論、三個重點和一張圖，這就是一頁的全部。</p>
+<h2 id="steps">在 iPhone 上三步做出一頁（以 OnePage PPT 為例）</h2>
+<ol><li><strong>什麼都能加</strong>：打字、貼上段落、拍照，或匯入 PDF 與試算表（CSV）。中英文夾雜、很長的段落、拍歪了的螢幕截圖文字，都可以直接放進來。</li><li><strong>點「產生投影片」</strong>：內容會被整理成標題重點，並轉成合適的視覺呈現，排成一頁 16:9 投影片；不用挑範本，也不用一個個拖文字方塊。</li><li><strong>直接上台，或匯出檔案</strong>：可編輯的 .pptx（PowerPoint、Keynote、Google 簡報都能開）、方便分享與列印的 PDF，或貼進文件、郵件、聊天室的高解析 PNG。</li></ol><p>它會自己挑視覺形式：數字變成直條圖、橫條圖、折線圖、環圈圖或漏斗圖；步驟變成流程圖；日期變成時間軸；兩個選項變成對照欄；結論變成四象限矩陣或階層架構圖。而且只有在資料真的撐得住時才會畫圖，絕不自行編造數字；這對給主管看的一頁紙很重要，你不會被問到一張憑空冒出來的圖。</p>
+<h2 id="cases">常見情境怎麼餵素材</h2>
+<div class="tbl"><table><tr><th>你手上的東西</th><th>怎麼放進去</th><th>通常會變成</th></tr><tr><td>一小時的會議紀錄</td><td>整段貼上</td><td>一頁結論＋重點卡片</td></tr><tr><td>CSV 裡的季度資料</td><td>匯入試算表</td><td>一眼看懂的走勢（折線或直條圖）</td></tr><tr><td>訪談筆記＋螢幕截圖</td><td>文字加截圖一起放</td><td>一頁洞察</td></tr><tr><td>產品方案或提案 PDF</td><td>匯入 PDF</td><td>給主管看的一頁紙</td></tr><tr><td>課程講義、一週進度</td><td>打字或貼上</td><td>上課就能投的講義、寄給客戶的更新</td></tr></table></div><p>這幾種都是商店文案列出的用法。原則一樣：先把結論那句話寫在素材最前面，產生出來的標題會比較接近你要的方向。</p>
+<h2 id="polish">第一版不滿意，怎麼改到能交</h2>
+<p>不用先想結構、也不用先選配色：把材料丟進去，先看它給的第一版，再用改版按鈕換幾個方向，挑一個最合適的收工。六種一鍵改版會用不同的圖表形式、字體與版面真正重排整頁：更簡潔只留最關鍵的訊息、更視覺把數字換成更大的圖表、更專業收緊格線與字級、更搶眼讓標題成為主角、更精簡把內容壓進更少的區塊、更雜誌感換成編輯式排版。喜歡的元素可以鎖定，重做時原樣保留。</p><p>細節也能點著改：改寫文字、換掉圖片、調整順序或更換樣式；改壞了有完整的版本紀錄可以回到先前的版本；兩指縮放放大檢視，上台前確認最小的字在後排看不看得清。內容改一次，標題、圖表和留白會一起重新排好。</p>
+<h2 id="privacy">資料會不會上傳？</h2>
+<p>所有處理都在你的裝置上完成，專案與圖片都留在 iPhone 或 iPad 上，匯出的檔案只有在你自己用分享功能傳出去時才會離開裝置。不用帳號、不用登入、沒有追蹤，也不用等雲端排隊；開飛航模式、在高鐵上或完全沒有網路，都照樣能用。拿公司內部的會議紀錄或客戶資料來做一頁摘要，這點值得先確認。</p>
+<div class="cta">
+<p><strong>想直接在 iPhone 上做？</strong> 把會議紀錄、PDF 或 CSV 丟進 OnePage PPT，點一下就排成一頁 16:9 簡報，再匯出可編輯的 pptx、PDF 或 PNG；全程在裝置上完成，可先免費做幾張試試。</p>
+<p><a class="btn" href="https://apps.apple.com/tw/app/id6798814385?pt=118326163&amp;ct=bm_onepageppt_tw_seo&amp;mt=8">在 App Store 查看 OnePage PPT: AI 一頁簡報</a></p>
+<p>已經在用 OnePage PPT: AI 一頁簡報？可以到 App Store 留下評分或評論。 <a href="https://apps.apple.com/app/id6798814385?action=write-review">撰寫評論</a></p>
+</div>
+<h2 id="faq">常見問題</h2>
+<p class="hd-q">可以把整份 20 頁的 PDF 丟進去嗎？</p>
+<p class="hd-a">可以匯入 PDF。但一頁的品質取決於你要的結論，建議先在素材最前面寫一句「這頁要講什麼」，再匯入 PDF 當佐證。</p>
+<p class="hd-q">匯出的 pptx 還能改嗎？</p>
+<p class="hd-a">能。匯出的 pptx 保留可編輯的文字方塊與圖表，不是一張圖片，交給同事也能用 PowerPoint、Keynote 或 Google 簡報繼續改。</p>
+<p class="hd-q">它會不會為了好看而捏造數字？</p>
+<p class="hd-a">商店文案寫明只有在資料真的撐得住時才會畫圖，絕不自行編造數字。</p>
+<p class="hd-q">沒有網路能用嗎？</p>
+<p class="hd-a">可以。所有處理都在裝置上完成，飛航模式、高鐵上或完全沒有網路都能用。</p>
+<p class="hd-q">一定要做成投影片嗎？我只要一頁 PDF 或圖片。</p>
+<p class="hd-a">不一定。可以直接匯出 PDF 或高解析 PNG，對方沒裝辦公軟體也能看。</p>
+
+
+<h2 id="related">相關教學</h2>
+<ul><li><a href="one-page-slide-app-free-or-lifetime.zh-Hant.html">一頁簡報 App 怎麼挑？免費夠不夠、什麼情況值得買 Lifetime Pro</a></li></ul>
+<p class="hd-note">本頁由 OnePage PPT: AI 一頁簡報 開發者在 AI 協助下撰寫，並對照 App Store 商店頁內容核對。最後更新：2026-10-15。</p>
+</main>
+</body>
+</html>
