@@ -14,6 +14,15 @@
 - [Privacy policy](https://open.cait518.cc/onepageppt-support/privacy.html)
 - [Terms of use](https://open.cait518.cc/onepageppt-support/terms.html)
 
+## Quick facts and Q&A
+
+- [OnePage PPT: AI Slide Maker — the short facts](https://open.cait518.cc/onepageppt-support/ai-faq.html)
+- [OnePage PPT: ИИ-слайды — коротко и по фактам](https://open.cait518.cc/onepageppt-support/ai-faq.ru.html)
+- [OnePage PPT: AI一页幻灯片——简明事实](https://open.cait518.cc/onepageppt-support/ai-faq.zh-Hans.html)
+- [OnePage PPT: عرض تقديمي — الحقائق باختصار](https://open.cait518.cc/onepageppt-support/ai-faq.ar-SA.html)
+- [Anotações, prints e PDF em um único slide: perguntas e respostas](https://open.cait518.cc/onepageppt-support/slide-unico-de-anotacoes-e-pdf-perguntas.pt-BR.html)
+- [Membuat PPT satu slide di HP: tanya jawab](https://open.cait518.cc/onepageppt-support/membuat-ppt-satu-slide-di-hp-tanya-jawab.id.html)
+
 ## Portfolio
 
 - [All public iOS apps](https://alice51849.github.io/ios-app-guide/apps/index.html)
